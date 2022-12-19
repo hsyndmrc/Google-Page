@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-left {
+  margin-top: 20px;
+  float: left;
+}
+
+.nav-right {
+  margin-right: 10px 10px 0 0;
+  float: right;
+  /* display: flex; */
+  /* align-items: center; */
+  /* display: flex;
+  align-items: center; */
+}
+.app-icon {
+  position: relative;
+  top: 10px;
+  opacity: 50%;
+}
+
+.app-icon:hover {
+  /* position: relative;
+  top: 10px; */
+  opacity: 1;
+}
+
+.nav-left,
+.nav-right {
+  font-size: 13px;
+  padding: 10px 15px;
+}
+
+.nav-a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.nav-a:hover {
+  text-decoration: underline;
+}
+
+.nav-signin-button {
+  background-color: #4285f4;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.microphone-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.search:hover {
+  box-shadow: 12px 8px 14px -4px rgba(0, 0, 0, 0.75);
+}
+.search-icon {
+  position: relative;
+  left: 60px;
+  top: 6.5px;
+}
+
+.microphone-icon {
+  position: relative;
+  right: 50px;
+  top: 6.5px;
+}
+
+.buttons {
+  margin: 20px 0;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.main input {
+  font-size: 14px;
+  padding: 0 53px;
+}
+
+footer {
+  width: 100%;
+  padding-left: 5px;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  font-size: 14px;
+  /* border-top: 1px solid #e4e4e4; */
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-nav-right a,
+.footer-nav-left a {
+  float: left;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 10px 10px;
+}
+
+.footer-nav-right {
+  float: right;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+.turkey {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+}
